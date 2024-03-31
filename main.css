@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0C0C0C;
+    font-family: "Tangerine", cursive;
+    color: #fff;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 20;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: #1C1C1C solid 0px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    background-color: #1C1C1C;
+    font-family: "Tangerine", cursive;
+    font-size: 2rem;
+    transition: ease 0.6s;
+}
+
+button:hover {
+    border: #4C4C4C solid 1px;
+    transition: ease 0.6s;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: calc(100vw - 25vh);
+    height: 75vh;
+    background-color: #0C0C0C;
+}
+
+.parameters {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0px 113px;
+}
+
+.parameters>* {
+    flex: 0 0 45%;
+}
+
+.parameters span {
+    font-size: 2rem;
+}
+
+.parameters input {
+    color: #fff;
+    background-color: #1C1C1C;
+    border: none;
+    border-radius: 5px;
+}
+
+.parameters input:focus {
+    outline: none;
+}
+
+.output {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0px 54px;
+}
+
+.output>* {
+    flex: 0 0 30%;
+}
+
+.output span {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.output input {
+    color: #fff;
+    background-color: #1C1C1C;
+    border: none;
+    border-radius: 5px;
+}
+
+.output input:focus {
+    outline: none;
+}
